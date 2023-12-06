@@ -1,1 +1,11 @@
-Coming soon!
+<script>
+var lang = navigator.language || navigator.userLanguage;
+lang = lang.toLowerCase();
+if (lang.indexOf("hu") !== -1) {
+	window.location.href("/hu");
+} else if (lang.indexOf("it") !== -1) {
+	window.location.href("/it");
+} else {
+	window.location.href("/en");
+}
+</script>
