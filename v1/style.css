@@ -1,31 +1,25 @@
+/*
+ * Hex-to-filter: https://codepen.io/sosuke/pen/Pjoqqp
+ */
+
+/*
+ * VARIABLES
+ */
+ :root {
+    --colorFont: #000;
+    --main: #f5f5f5;
+    --secondary: #eee;
+    --third: #c5c5c5;
+    --thirdFilter: invert(88%) sepia(10%) saturate(10%) hue-rotate(348deg) brightness(96%) contrast(75%);
+}
+
+/*
+ * GENERIC
+ */
 body {
 	font-family: 'Merriweather', serif;
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #f5f5f5;
-}
-
-.container {
-    margin: 0 auto;
-}
-
-h1 {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.date {
-    font-size: 14px;
-    display: block;
-    text-align: center;
-}
-
-main {
-    padding: 20px;
 }
 
 section {
@@ -49,6 +43,13 @@ li {
     margin-bottom: 10px;
 }
 
+footer {
+    background-color: #f5f5f5;
+	padding: 2em;
+	padding-top: 1em;
+    text-align: center;
+}
+
 .honeymoon a {
     display: block;
     background-color: #007bff;
@@ -58,37 +59,92 @@ li {
     border-radius: 5px;
 }
 
-footer {
-    background-color: #f5f5f5;
-	padding: 2em;
-	padding-top: 1em;
+.svg-container {
+    text-align:center;
+}
+
+.image-container {
+    background-color: rgba(123,123,123,50%);
+    line-height: 0;
+}
+
+/*
+ * HEADER
+ */
+header {
+    background-color: var(--main);
     text-align: center;
 }
 
 .title {
 	font-family: 'Dancing Script', cursive;
-	font-size: 7em;
-	margin-bottom: 0.3em;
+	font-size: 5em;
+	font-weight: bold;
+    margin-bottom: 0.3em;
 	margin-top: 0.3em;
-}
-
-.subtitle {
-	font-family: 'Dancing Script', cursive;
-	font-size: 3em;
-	margin-bottom: 1em;
-	margin-top: 1em;
+    text-align: center;
 }
 
 .date {
 	font-family: 'Merriweather', serif;
-	font-size: 1.5em;
+	font-size: 1em;
 	padding-bottom: 3em;
 	font-weight: bold;
 }
 
+.date-line {
+    border-top: 1px solid var(--colorFont);
+    padding-left:10em;
+    font-size: 0.3em;
+}
+
+.date-text {
+    padding-left:0.5em;
+    padding-right:0.5em;
+}
+
+/*
+ * NAV
+ */
 nav {
+    background: linear-gradient(0deg, rgba(251,251,251,1) 0%, rgba(233,233,233,1) 100%);
+    color:black;
 	padding: 2em;
 	font-size: 1em;
 	text-align: center;
 	font-family: 'Merriweather', serif;
+}
+
+.diamond {
+    font-size: 0.7em;
+    color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/*
+ * MAIN
+ */
+div.article-title {
+	font-family: 'Dancing Script', cursive;
+	font-size: 3.5em;
+	margin-bottom: 0.5em;
+}
+
+div.article-footer {
+    margin-top: 2em; 
+    margin-bottom: 4em;
+}
+
+div.article-divider {
+    height:30px;
+    background: linear-gradient(180deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);
+    /* background: linear-gradient(0.25turn, #fff, var(--main), #fff); */
+}
+
+/*
+ * FOOTER
+ */
+img.svg {
+    filter: var(--thirdFilter);
 }
