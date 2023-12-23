@@ -13,10 +13,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/zapfino" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+    <!-- 
+        HEADER 
+    -->
     <header>
         <div class="svg-container">
             <img class="svg" src="pixelied-fancy-nancy.svg" width="300px" />
@@ -29,17 +32,38 @@
         </div>
     </header>
 
+    <!-- 
+        NAVIGATION 
+    -->
     <nav>
-        Ceremony <span class="diamond">&#x25C6;</span>
-        Celebration <span class="diamond">&#x25C6;</span>
-        Transportation <span class="diamond">&#x25C6;</span>
-        Accomodation <span class="diamond">&#x25C6;</span>
-        Gifts <span class="diamond">&#x25C6;</span>
-        RSVP
+        <a href="javascript:void(0)" onclick="document.getElementById('article-ceremony').scrollIntoView({ behavior: 'smooth' });">Ceremony</a>
+        <span class="diamond">&#x25C6;</span>
+
+        <a href="javascript:void(0)" onclick="document.getElementById('article-celebration').scrollIntoView({ behavior: 'smooth' });">Celebration</a>
+        <span class="diamond">&#x25C6;</span>
+
+        <a href="javascript:void(0)" onclick="document.getElementById('article-transportation').scrollIntoView({ behavior: 'smooth' });">Transportation</a>
+        <span class="diamond">&#x25C6;</span>
+
+        <a href="javascript:void(0)" onclick="document.getElementById('article-accomodation').scrollIntoView({ behavior: 'smooth' });">Accomodation</a>
+        <span class="diamond">&#x25C6;</span>
+
+        <a href="javascript:void(0)" onclick="document.getElementById('article-gifts').scrollIntoView({ behavior: 'smooth' });">Gifts</a>
+        <span class="diamond">&#x25C6;</span>
+
+        <a href="javascript:void(0)" onclick="document.getElementById('article-rsvp').scrollIntoView({ behavior: 'smooth' });">RSVP</a>
     </nav>
 
+
+    <!-- 
+        MAIN CONTENT 
+    -->
     <main>
-        <article>
+
+        <!-- 
+            CONTENT: CEREMONY
+        -->
+        <article id="article-ceremony">
             <div class="article-title">Ceremony</div>
             <div class="article-footer">
                 <img class="svg" src="pixelied-fancy-nancy2.svg" width="300px" />
@@ -52,11 +76,14 @@
             </div>
             <p>
                 <img src="icon-map.svg" width="20px" />
-                Via Chiesa Madre, 73012 Galatina, Italy
+                Piazza San Pietro, 73013 Galatina LE, Italy
             </p>
         </article>
 
-        <article>
+        <!-- 
+            CONTENT: CELEBRATION
+        -->
+        <article id="article-celebration">
             <div class="article-title">Celebration</div>
             <div class="article-footer">
                 <img class="svg" src="pixelied-fancy-nancy2.svg" width="300px" />
@@ -69,11 +96,14 @@
             </div>
             <p>
                 <img src="icon-map.svg" width="20px" />
-                Cala Dei Balcani, Località Cala dei Balcani, 73040 Gallipoli, Italy
+                Via Belvedere, 22, 73020 Santa Cesarea Terme LE, Italy
             </p>
         </article>
 
-        <article>
+        <!-- 
+            CONTENT: TRANSPORTATION
+        -->
+        <article id="article-transportation">
             <div class="article-title">Transportation</div>
             <div class="article-footer">
                 <img class="svg" src="pixelied-fancy-nancy2.svg" width="300px" />
@@ -82,7 +112,10 @@
             <p>TODO</p>
         </article>
 
-        <article>
+        <!-- 
+            CONTENT: ACCOMODATION
+        -->
+        <article id="article-accomodation">
             <div class="article-title">Accomodation</div>
             <div class="article-footer">
                 <img class="svg" src="pixelied-fancy-nancy2.svg" width="300px" />
@@ -91,14 +124,17 @@
             <p>TODO</p>
         </article>
 
-        <article>
+        <!-- 
+            CONTENT: GIFTS
+        -->
+        <article id="article-gifts">
             <div class="article-title">Gifts</div>
             <div class="article-footer">
                 <img class="svg" src="pixelied-fancy-nancy2.svg" width="300px" />
             </div>
 
             <p>Your presence is the most important gift of all,</p>
-            <p>but if you would like to contribute to our honeymoon fund, we would be so grateful!</p>
+            <p>but if you would like to contribute to our Honeymoon Fund, we would be so grateful!</p>
             <p>
             <table id="gifts">
                 <tr>
@@ -129,14 +165,18 @@
             </p>
         </article>
 
-        <article>
+        <!-- 
+            CONTENT: RSVP
+        -->
+        <article id="article-rsvp">
             <div class="article-title">R.S.V.P</div>
             <div class="article-footer">
                 <img class="svg" src="pixelied-fancy-nancy2.svg" width="300px" />
             </div>
 
             <p>Please confirm your presence by <span class="highlight">30th March</span>,</p>
-            <p>So we can arrange everything in time for you!</p>
+            <p>so we can arrange everything in time for you!</p>
+            <p>Please also let us know if you have any dietary requirements (vegetarian, vegan, etc.)</p>
             <p>
                 <a href="mailto:chiara.dematteis.uk@gmail.com">chiara.dematteis.uk@gmail.com</a> |
                 <a href="mailto:kotai.kristof@gmail.com">kotai.kristof@gmail.com</a>
@@ -148,6 +188,10 @@
         </article>
     </main>
 
+
+    <!-- 
+        FOOTER 
+    -->
     <footer>
         <div class="svg-container">
             <img class="svg" src="pixelied-virgen-de-guadalupe.svg" width="300px" />
