@@ -1,5 +1,5 @@
 /*
- * Hex-to-filter: https://codepen.io/sosuke/pen/Pjoqqp
+ * Hex-to-filter: https://cssfilterconverter.com/
  */
 
 /*
@@ -8,14 +8,24 @@
 :root {
     --colorFont: #655431;
     --colorSecondary: #eee;
+    --colorThird: #F2DCA6;
     --colorThirdFilter: invert(67%) sepia(100%) saturate(100%) hue-rotate(5deg) brightness(103%) contrast(108%);
+    --colorFourth: #a67f1e;
 }
 
 /*
  * GENERIC
  */
+@font-face {
+    font-family: 'Adios Script Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/adios-script-pro.woff') format('woff');
+}
+
 html {
     color: var(--colorFont);
+    width: 100%;
 }
 
 body {
@@ -24,15 +34,21 @@ body {
     padding: 0;
 }
 
+a {
+    color: var(--colorFourth);
+    text-decoration: none;
+    /* border-bottom: 1px solid; */
+}
+
 .marble-grey {
     background-size: 100% auto;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(images/marble-grey.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/marble-grey.jpg");
     background-repeat: repeat-y;
 }
 
 .marble-yellow {
     background-size: 100% auto;
-    background-image: url(images/marble-yellow5.jpg);
+    background-image: url("../images/marble-yellow5.jpg");
     background-repeat: repeat-y;
 }
 
@@ -55,11 +71,10 @@ header {
 }
 
 .title {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Adios Script Pro Regular', cursive;
     font-size: 5em;
-    font-weight: bold;
     margin-bottom: 0.3em;
-    margin-top: 0.3em;
+    margin-top: 0.6em;
     text-align: center;
 }
 
@@ -85,18 +100,18 @@ header {
  * NAV
  */
 nav {
-    /* background: linear-gradient(0deg, rgba(251, 251, 251, 1) 0%, rgba(233, 233, 233, 1) 100%); */
-    /* color: black; */
     padding: 2em;
-    font-size: 1em;
+    font-size: 1.1em;
     text-align: center;
     font-family: 'Merriweather', serif;
     text-transform: uppercase;
+    box-shadow: 0px -18px 21px -18px #5e420c45;
+    border-bottom: 1px solid #c2a05d45;
 }
 
 .diamond {
-    font-size: 1em;
-    color: black;
+    color: var(--colorFourth);
+    font-size: 0.6em;
     padding-left: 1em;
     padding-right: 1em;
 }
@@ -104,6 +119,12 @@ nav {
 /*
  * MAIN
  */
+main {
+    padding-bottom: 1px;
+    /* border-bottom: 1px solid #c2a05d45; */
+    box-shadow: 0px 18px 21px -18px #5e420c45
+}
+
 article {
     text-align: center;
     margin-bottom: 5em;
@@ -112,8 +133,8 @@ article {
 
 div.article-title {
     font-family: 'Dancing Script', cursive;
-    font-size: 3.5em;
-    margin-bottom: 0.3em;
+    font-size: 3em;
+    margin-bottom: 0.2em;
 }
 
 div.article-footer {
@@ -125,11 +146,12 @@ div.article-footer {
 }
 
 table#gifts {
-    width: 500px;
+    width: 570px;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
     border: 2px solid var(--colorSecondary);
+    background-color: rgba(230, 209, 178, 0.2);
 }
 
 table#gifts th {
@@ -158,10 +180,12 @@ table#gifts #gifts-title {
 footer {
     padding: 2em;
     padding-top: 1em;
+    padding-bottom: 1em;
     text-align: center;
 }
 
 .copyright {
     font-size: 0.8em;
     padding-top: 1em;
+    padding-bottom: 1em;
 }
