@@ -69,12 +69,38 @@ header {
     text-align: center;
 }
 
+.frame-container {
+    height: 470px;
+    overflow: hidden;
+}
+
+.frame-svg-container {
+    position: relative;
+    top: -560px;
+}
+
+.title-container {
+    position: relative;
+    top: -1015px;
+}
+
+.title-photo {
+    /* position: relative; */
+    /* top: -852px; */
+    width: 787px;
+    filter: saturate(0);
+    margin-top: 32px;
+    /* z-index: -999; */
+}
+
 .title {
     font-family: 'Adios Script Pro Regular', cursive;
     font-size: 5em;
     margin-bottom: 0.3em;
     margin-top: 0.6em;
     text-align: center;
+    text-shadow: 2px 2px 6px black;
+    color: #ffe6c5;
 }
 
 .date {
@@ -82,12 +108,15 @@ header {
     font-size: 1em;
     padding-bottom: 3em;
     font-weight: bold;
+    text-shadow: 2px 2px 2px #3a3a3a;
+    color: #ffe6c5;
 }
 
 .date-line {
     border-top: 1px solid var(--colorFont);
     padding-left: 10em;
     font-size: 0.3em;
+
 }
 
 .date-text {
@@ -106,6 +135,7 @@ nav {
     text-transform: uppercase;
     box-shadow: 0px -18px 21px -18px #5e420c45;
     border-bottom: 1px solid #c2a05d45;
+    position: relative;
 }
 
 .diamond {
