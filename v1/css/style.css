@@ -37,7 +37,6 @@ body {
 a {
     color: var(--colorFourth);
     text-decoration: none;
-    /* border-bottom: 1px solid; */
 }
 
 .marble-grey {
@@ -48,7 +47,7 @@ a {
 
 .marble-yellow {
     background-size: 100% auto;
-    background-image: linear-gradient(rgb(255 255 255 / 79%), rgb(255 255 255 / 57%)), url("../images/marble-yellow5.jpg");
+    background-image: linear-gradient(rgb(255 255 255 / 79%), rgb(255 255 255 / 57%)), url("../images/marble-yellow.jpg");
     background-repeat: repeat-y;
 }
 
