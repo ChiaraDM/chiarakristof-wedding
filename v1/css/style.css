@@ -9,7 +9,7 @@
     --colorFont: #655431;
     --colorSecondary: #eee;
     --colorThird: #F2DCA6;
-    --colorThirdFilter: invert(67%) sepia(100%) saturate(100%) hue-rotate(5deg) brightness(103%) contrast(108%);
+    --colorThirdFilter: invert(58%) sepia(89%) saturate(2188%) hue-rotate(16deg) brightness(111%) contrast(91%);
     --colorFourth: #a67f1e;
 }
 
@@ -48,7 +48,7 @@ a {
 
 .marble-yellow {
     background-size: 100% auto;
-    background-image: url("../images/marble-yellow5.jpg");
+    background-image: linear-gradient(rgb(255 255 255 / 79%), rgb(255 255 255 / 57%)), url("../images/marble-yellow5.jpg");
     background-repeat: repeat-y;
 }
 
