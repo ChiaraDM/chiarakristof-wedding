@@ -14,7 +14,7 @@
 }
 
 /*
- * GENERIC
+ * FONTS
  */
 @font-face {
     font-family: 'Adios Script Pro Regular';
@@ -23,6 +23,23 @@
     src: url('../fonts/adios-script-pro.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/merriweather-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/dancing-script-regular.ttf') format('truetype');
+}
+
+/*
+ * GENERIC
+ */
 html {
     color: var(--colorFont);
     width: 100%;
@@ -85,12 +102,9 @@ header {
 }
 
 .title-photo {
-    /* position: relative; */
-    /* top: -852px; */
     width: 787px;
     filter: saturate(0);
     margin-top: 32px;
-    /* z-index: -999; */
 }
 
 .title {
@@ -150,7 +164,6 @@ nav {
  */
 main {
     padding-bottom: 1px;
-    /* border-bottom: 1px solid #c2a05d45; */
     box-shadow: 0px 18px 21px -18px #5e420c45
 }
 
