@@ -82,6 +82,12 @@ a {
     line-height: 0;
 }
 
+@media (max-width: 500px) {
+    .image-container img {
+        border: 8px solid white;
+    }
+}
+
 img.svg {
     filter: var(--colorThirdFilter);
 }
