@@ -7,6 +7,7 @@
  */
 :root {
     --colorFont: #655431;
+    --colorFontFilter: brightness(0) saturate(100%) invert(32%) sepia(22%) saturate(842%) hue-rotate(2deg) brightness(94%) contrast(91%);
     --colorSecondary: #eee;
     --colorThird: #F2DCA6;
     --colorThirdFilter: invert(58%) sepia(89%) saturate(2188%) hue-rotate(16deg) brightness(111%) contrast(91%);
@@ -313,6 +314,12 @@ div.article-title-underline {
     background-color: #ead9b080;
 }
 
+p.article-text {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
 img#galatina,
 img#cala,
 img#santa-cesarea {
@@ -328,20 +335,27 @@ img#santa-cesarea {
     }
 }
 
-p#ceremony-text,
-p#celebration-text,
-p#accomodation-text,
-p#transportation-text,
-p#rsvp-text,
-p#gifts-text {
-    max-width: 500px;
+/*
+ * CONTENT: ACCOMODATION
+ */
+ul#accomodation-list {
+    max-width: 400px;
     margin: 0 auto;
-    text-align: justify;
+    text-align: left;
+    padding: 1em;
+    padding-left: 3em;
 }
 
-/*
- * CONTENT: CEREMONY
- */
+ul#accomodation-list li {
+    list-style: none;
+    line-height: 1.5em;
+}
+
+ul#accomodation-list li::before {
+    content: url('../svg/list-item.svg');
+    filter: var(--colorThirdFilter);
+    padding-right: 0.5em;
+}
 
 /*
  * CONTENT: RSVP
