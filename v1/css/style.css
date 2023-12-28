@@ -56,7 +56,7 @@ a {
     text-decoration: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     a {
         display: block;
         padding: 4px;
@@ -82,7 +82,7 @@ a {
     line-height: 0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     .image-container img {
         border: 8px solid white;
     }
@@ -100,7 +100,7 @@ img.svg {
     width: 350px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     #image-header {
         width: 250px;
     }
@@ -115,20 +115,50 @@ header {
     overflow: hidden;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     .frame-container {
-        height: 250px;
+        height: 245px;
+    }
+}
+
+.frame-white-layer {
+    background: linear-gradient(rgba(255, 255, 255, 1), #ebe5db);
+    width: 790px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+@media (max-width: 900px) {
+    .frame-white-layer {
+        width: 315px;
+        height: 500px;
+        margin-top: 18px;
+    }
+}
+
+.title-photo {
+    width: 787px;
+    filter: saturate(0);
+    position: relative;
+    top: -520px;
+}
+
+@media (max-width: 900px) {
+    .title-photo {
+        width: 349px;
+        top: -500px;
     }
 }
 
 .frame-svg-container {
     position: relative;
-    top: -560px;
+    top: -1086px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     .frame-svg-container {
-        top: -264px;
+        top: -754px;
     }
 }
 
@@ -136,7 +166,7 @@ img#img-frame {
     width: 900px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     img#img-frame {
         width: 350px;
     }
@@ -144,24 +174,12 @@ img#img-frame {
 
 .title-container {
     position: relative;
-    top: -1015px;
+    top: -1518px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     .title-container {
-        top: -450px;
-    }
-}
-
-.title-photo {
-    width: 787px;
-    filter: saturate(0);
-    margin-top: 32px;
-}
-
-@media (max-width: 500px) {
-    .title-photo {
-        width: 349px;
+        top: -930px;
     }
 }
 
@@ -175,26 +193,31 @@ img#img-frame {
     color: #ffe6c5;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     .title {
-        font-size: 4em;
+        font-size: 3.5em;
+        text-shadow: 2px 1px 4px #222;
     }
 }
 
 .date {
     font-family: 'Merriweather', serif;
-    font-size: 1em;
+    font-size: 1.2em;
     padding-bottom: 3em;
     font-weight: bold;
-    text-shadow: 2px 2px 2px #3a3a3a;
+    text-shadow: 1px 1px 3px #000;
     color: #ffe6c5;
 }
 
-.date-line {
-    border-top: 1px solid var(--colorFont);
-    padding-left: 10em;
-    font-size: 0.3em;
+@media (max-width: 900px) {
+    .date {
+        font-size: 0.8em;
+    }
+}
 
+.date-line {
+    text-shadow: 1px 1px 3px #373737;
+    font-size: 1em;
 }
 
 .date-text {
@@ -216,7 +239,7 @@ nav {
     position: relative;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     nav {
         padding: 1em;
     }
@@ -227,9 +250,11 @@ nav {
     font-size: 0.6em;
     padding-left: 1em;
     padding-right: 1em;
+    line-height: 2em;
+    vertical-align: top;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     .diamond {
         display: none;
     }
@@ -302,7 +327,7 @@ img#santa-cesarea {
     width: 500px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
 
     img#galatina,
     img#cala,
@@ -331,7 +356,7 @@ img#img-footer {
     width: 250px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     img#img-footer {
         width: 150px;
     }
