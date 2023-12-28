@@ -56,11 +56,12 @@ a {
     text-decoration: none;
 }
 
-@media (max-width: 900px) {
-    a {
-        display: block;
-        padding: 4px;
-    }
+a:hover {
+    border-bottom: 1px solid var(--colorFourth);
+}
+
+p {
+    line-height: 1.5em;
 }
 
 .marble-grey {
@@ -243,6 +244,11 @@ nav {
     nav {
         padding: 1em;
     }
+
+    nav a {
+        display: block;
+        padding: 4px;
+    }
 }
 
 .diamond {
@@ -261,11 +267,17 @@ nav {
 }
 
 /*
- * MAIN
+ * CONTENT
  */
 main {
     padding-bottom: 1px;
     box-shadow: 0px 18px 21px -18px #5e420c45
+}
+
+@media (max-width: 900px) {
+    main {
+        padding: 1em;
+    }
 }
 
 article {
@@ -280,45 +292,21 @@ div.article-title {
     margin-bottom: 0.2em;
 }
 
-div.article-footer {
+div.article-title-underline {
     margin-bottom: 2em;
 }
 
 .highlight {
     font-style: italic;
-}
-
-.table-container {
-    overflow-x: auto;
-}
-
-table#gifts {
-    max-width: 570px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-    border: 2px solid var(--colorSecondary);
-    background-color: rgba(230, 209, 178, 0.2);
-}
-
-table#gifts th {
-    white-space: nowrap;
-    text-align: right;
-    vertical-align: top;
-    ;
     font-weight: bold;
+    padding: 3px;
 }
 
-table#gifts td {
-    text-align: left;
-    padding-left: 1em;
-}
-
-table#gifts #gifts-title {
+.highlight-strong {
     font-style: italic;
-    text-align: center;
-    font-size: 1.2em;
-    padding: 0 0 0.7em 0;
+    padding: 3px;
+    border-radius: 6px;
+    background-color: #ead9b080;
 }
 
 img#galatina,
@@ -334,6 +322,59 @@ img#santa-cesarea {
     img#santa-cesarea {
         width: 300px;
     }
+}
+
+/*
+ * CONTENT: RSVP
+ */
+p#rsvp-text {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.rsvp-contact {
+    width: 250px;
+    padding-top: 2em;
+    margin: 0 auto;
+}
+
+/*
+ * CONTENT: GIFTS
+ */
+p#gifts-text {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+table#gifts {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    border: 6px solid #ead9b080;
+    font-size: 0.9em;
+}
+
+table#gifts th {
+    text-align: right;
+    vertical-align: top;
+    font-weight: bold;
+    padding-top: 0.8em;
+}
+
+table#gifts td {
+    text-align: left;
+    padding-left: 1em;
+    padding-top: 0.8em;
+}
+
+table#gifts #gifts-title {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0 0 0.7em 0;
 }
 
 /*
