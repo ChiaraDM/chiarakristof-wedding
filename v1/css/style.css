@@ -61,7 +61,7 @@ a:hover {
 }
 
 p {
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 
 .marble-grey {
@@ -74,6 +74,10 @@ p {
     background-size: 100% auto;
     background-image: linear-gradient(rgb(255 255 255 / 79%), rgb(255 255 255 / 57%)), url("../images/marble-yellow.jpg");
     background-repeat: repeat-y;
+}
+
+.image-container {
+    margin-top: 1em;
 }
 
 .image-container img {
@@ -324,15 +328,24 @@ img#santa-cesarea {
     }
 }
 
-/*
- * CONTENT: RSVP
- */
-p#rsvp-text {
+p#ceremony-text,
+p#celebration-text,
+p#accomodation-text,
+p#transportation-text,
+p#rsvp-text,
+p#gifts-text {
     max-width: 500px;
     margin: 0 auto;
     text-align: justify;
 }
 
+/*
+ * CONTENT: CEREMONY
+ */
+
+/*
+ * CONTENT: RSVP
+ */
 .rsvp-contact {
     width: 250px;
     padding-top: 2em;
@@ -342,12 +355,6 @@ p#rsvp-text {
 /*
  * CONTENT: GIFTS
  */
-p#gifts-text {
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: justify;
-}
-
 table#gifts {
     max-width: 500px;
     margin-left: auto;

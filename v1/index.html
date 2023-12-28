@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+
     <title>Chiara &amp; Krist&oacute;f Wedding</title>
 
     <link rel="stylesheet" href="css/style.css" />
@@ -45,10 +47,10 @@
         <a href="javascript:void(0)" onclick="document.getElementById('article-celebration').scrollIntoView({ behavior: 'smooth' });">Celebration</a>
         <span class="diamond">&#x25C6;</span>
 
-        <a href="javascript:void(0)" onclick="document.getElementById('article-transportation').scrollIntoView({ behavior: 'smooth' });">Transportation</a>
+        <a href="javascript:void(0)" onclick="document.getElementById('article-accomodation').scrollIntoView({ behavior: 'smooth' });">Accomodation</a>
         <span class="diamond">&#x25C6;</span>
 
-        <a href="javascript:void(0)" onclick="document.getElementById('article-accomodation').scrollIntoView({ behavior: 'smooth' });">Accomodation</a>
+        <a href="javascript:void(0)" onclick="document.getElementById('article-transportation').scrollIntoView({ behavior: 'smooth' });">Transportation</a>
         <span class="diamond">&#x25C6;</span>
 
         <a href="javascript:void(0)" onclick="document.getElementById('article-rsvp').scrollIntoView({ behavior: 'smooth' });">RSVP</a>
@@ -71,13 +73,16 @@
                 <img class="svg" src="svg/title-underline.svg" width="300px" />
             </div>
 
-            <p>The ceremony will be held at <span class="highlight">10:30 AM</span></p>
-            <p>at <span class="highlight">Chiesa Madre dei Santi Pietro e Paolo</span></p>
+            <p id="ceremony-text">
+                The wedding ceremony will be held
+                at <span class="highlight">10:30 AM</span>
+                at <span class="highlight">Chiesa Madre dei Santi Pietro e Paolo</span>
+            </p>
             <div class="image-container">
                 <img id="galatina" src="images/img-galatina.jpg" />
             </div>
             <p>
-                <img src="svg/icon-map.svg" width="20px" />
+                <img src="svg/icon-map.svg" width="20px" height="15px" />
                 <a href="https://maps.app.goo.gl/KvshqXA6VCgHGWJUA" target="_blank">Piazza San Pietro, 73013 Galatina LE, Italy</a>
             </p>
         </article>
@@ -91,14 +96,43 @@
                 <img class="svg" src="svg/title-underline.svg" width="300px" />
             </div>
 
-            <p>After the ceremony, the celebration will continue</p>
-            <p>at <span class="highlight">Cala Dei Balcani</span></p>
+            <p id="celebration-text">
+                After the ceremony, the celebration will continue
+                at <span class="highlight">Cala Dei Balcani</span>
+            </p>
             <div class="image-container">
                 <img id="cala" src="images/img-cala.jpg" />
             </div>
             <p>
-                <img src="svg/icon-map.svg" width="20px" />
+                <img src="svg/icon-map.svg" width="20px" height="15px" />
                 <a href="https://maps.app.goo.gl/vsAh2ouUh2qnkw8C7" target="_blank">Via Belvedere, 22, 73020 Santa Cesarea Terme LE, Italy</a>
+            </p>
+        </article>
+
+        <!-- 
+            CONTENT: ACCOMODATION
+        -->
+        <article id="article-accomodation">
+            <div class="article-title">Accomodation</div>
+            <div class="article-title-underline">
+                <img class="svg" src="svg/title-underline.svg" width="300px" />
+            </div>
+
+            <p id="accomodation-text">
+                To book an accomodation, we would recommend
+                the following towns, they all have beautiful sea views:
+                <br />
+                <span class="highlight">Santa Cesarea Terme, Otranto, Gallipoli, Torre San Giovanni, Castro</span>
+                <br /><br />
+                The celebration at Cala Dei Balcani is located in Santa Cesarea Terme.
+            </p>
+
+            <div class="image-container">
+                <img id="santa-cesarea" src="images/img-santa-cesarea.jpg" />
+            </div>
+            <p>
+                <img src="svg/icon-map.svg" width="20px" height="15px" />
+                <a href="https://maps.app.goo.gl/mYAeYTDVQktinCfr9" target="_blank">Cesarea Terme LE, Italy</a>
             </p>
         </article>
 
@@ -111,33 +145,10 @@
                 <img class="svg" src="svg/title-underline.svg" width="300px" />
             </div>
 
-            <p>Getting to the wedding venue from abroad is easiest by plane.</p>
-            <p>The closest airport is: <span class="highlight">Brindisi Papola Casale Airport (Salento Airport)</span></p>
-            <p>From the airport to your accomodation: ...</p>
-            <p>TODO</p>
-        </article>
-
-        <!-- 
-            CONTENT: ACCOMODATION
-        -->
-        <article id="article-accomodation">
-            <div class="article-title">Accomodation</div>
-            <div class="article-title-underline">
-                <img class="svg" src="svg/title-underline.svg" width="300px" />
-            </div>
-
-            <p>To book an accomodation, we would recommend</p>
-            <p>the following towns, they all have beautiful sea views:</p>
-            <p><span class="highlight">Santa Cesarea Terme, Otranto, Gallipoli, Torre San Giovanni, Castro</span></p>
-            <p>&nbsp;</p>
-            <p>The celebration at Cala Dei Balcani is located in Santa Cesarea Terme.</p>
-
-            <div class="image-container">
-                <img id="santa-cesarea" src="images/img-santa-cesarea.jpg" />
-            </div>
-            <p>
-                <img src="svg/icon-map.svg" width="20px" />
-                <a href="https://maps.app.goo.gl/mYAeYTDVQktinCfr9" target="_blank">Cesarea Terme LE, Italy</a>
+            <p id="transportation-text">
+                Getting to the wedding venue from abroad is easiest by plane.
+                The closest airport is: <span class="highlight">Brindisi Papola Casale Airport (Salento Airport)</span>
+                From the airport to your accomodation: ...
             </p>
         </article>
 
