@@ -71,93 +71,178 @@ class Data {
         // HEADER
         'header .date-text': {
             [Language.HUNGARIAN]: '2024. június 21.',
-            [Language.ITALIAN]:   '21st June 2024'
+            [Language.ITALIAN]: '21st June 2024'
         },
 
         // NAV
         '#nav-ceremony a': {
             [Language.HUNGARIAN]: 'Ceremónia',
-            [Language.ITALIAN]:   'Ceremony'
+            [Language.ITALIAN]: 'Ceremony'
         },
         '#nav-celebration a': {
             [Language.HUNGARIAN]: 'Fogadás',
-            [Language.ITALIAN]:   'Celebration'
+            [Language.ITALIAN]: 'Celebration'
         },
         '#nav-accomodation a': {
             [Language.HUNGARIAN]: 'Szállás',
-            [Language.ITALIAN]:   'Accomodation'
+            [Language.ITALIAN]: 'Accomodation'
         },
         '#nav-transportation a': {
             [Language.HUNGARIAN]: 'Transzport',
-            [Language.ITALIAN]:   'Transportation'
+            [Language.ITALIAN]: 'Transportation'
         },
         '#nav-rsvp a': {
             [Language.HUNGARIAN]: 'Visszajelzés',
-            [Language.ITALIAN]:   'RSVP'
+            [Language.ITALIAN]: 'RSVP'
         },
         '#nav-gifts a': {
-            [Language.HUNGARIAN]: 'Ajandékok',
-            [Language.ITALIAN]:   'Gifts'
+            [Language.HUNGARIAN]: 'Ajándékok',
+            [Language.ITALIAN]: 'Gifts'
         },
 
         // CEREMONY
         '#article-ceremony .article-title': {
             [Language.HUNGARIAN]: 'Ceremónia',
-            [Language.ITALIAN]:   'Ceremony'
+            [Language.ITALIAN]: 'Ceremony'
         },
-        '#article-ceremony .article-text': {
+        '#article-ceremony-text1': {
             [Language.HUNGARIAN]: 'The wedding ceremony will be held ' +
-                'at <span class="highlight">10:30 AM</span> ' + 
+                'at <span class="highlight">10:30 AM</span> ' +
                 'at <span class="highlight">Chiesa Madre dei Santi Pietro e Paolo</span>.',
             [Language.ITALIAN]: 'The wedding ceremony will be held ' +
-                'at <span class="highlight">10:30 AM</span> ' + 
+                'at <span class="highlight">10:30 AM</span> ' +
                 'at <span class="highlight">Chiesa Madre dei Santi Pietro e Paolo</span>.',
         },
-        
+
         // CELEBRATION
         '#article-celebration .article-title': {
             [Language.HUNGARIAN]: 'Fogadás',
-            [Language.ITALIAN]:   'Celebration'
+            [Language.ITALIAN]: 'Celebration'
         },
-        '#article-celebration .article-text': {
+        '#article-celebration-text1': {
             [Language.HUNGARIAN]: 'After the ceremony, the celebration will continue ' +
                 'at <span class="highlight">Cala Dei Balcani</span>.',
             [Language.ITALIAN]: 'After the ceremony, the celebration will continue ' +
                 'at <span class="highlight">Cala Dei Balcani</span>.',
         },
-        
+
         // ACCOMODATION
         '#article-accomodation .article-title': {
             [Language.HUNGARIAN]: 'Szállás',
-            [Language.ITALIAN]:   'Accomodation'
+            [Language.ITALIAN]: 'Accomodation'
         },
-        '#article-accomodation .article-text:nth-of-type(1)': {
+        '#article-accomodation-text1': {
             [Language.HUNGARIAN]: 'After the ceremony, the celebration will continue ' +
                 'at <span class="highlight">Cala Dei Balcani</span>.',
             [Language.ITALIAN]: 'After the ceremony, the celebration will continue ' +
                 'at <span class="highlight">Cala Dei Balcani</span>.',
         },
-        '#article-accomodation .article-text:nth-of-type(2)': {
+        '#article-accomodation-text2': {
             [Language.HUNGARIAN]: 'The closest to the celebration venue is Santa Cesarea Terme, ' +
                 'where <span class="highlight">Cala Dei Balcani</span> is located.',
             [Language.ITALIAN]: 'The closest to the celebration venue is Santa Cesarea Terme, ' +
-            'where <span class="highlight">Cala Dei Balcani</span> is located.',
+                'where <span class="highlight">Cala Dei Balcani</span> is located.',
         },
-        '#article-accomodation .article-text:nth-of-type(3)': {
-            [Language.HUNGARIAN]: 'Note, that within these towns there is no Uber or on-demand Taxi service.' +
+        '#article-accomodation-text3': {
+            [Language.HUNGARIAN]: 'Note, that within these towns there is no Uber or on-demand Taxi service. ' +
                 'Taxi journeys need to be prebooked.',
-            [Language.ITALIAN]: 'Note, that within these towns there is no Uber or on-demand Taxi service.' +
+            [Language.ITALIAN]: 'Note, that within these towns there is no Uber or on-demand Taxi service. ' +
                 'Taxi journeys need to be prebooked.',
         },
 
         // TRANSPORTATION
+        '#article-transportation .article-title': {
+            [Language.HUNGARIAN]: 'Transzport',
+            [Language.ITALIAN]: 'Transportation'
+        },
+        '#article-transportation-text1': {
+            [Language.HUNGARIAN]: '<span class="highlight">Arriving by plane</span>',
+            [Language.ITALIAN]: '<span class="highlight">Arriving by plane</span>',
+        },
+        '#article-transportation-text2': {
+            [Language.HUNGARIAN]: 'Getting to the wedding venue from abroad is easiest by plane. ' +
+                'The closest airport is: ' +
+                '<a href="https://maps.app.goo.gl/VTXyV5dDLfGFCfpA8" target="_blank">Brindisi Papola Casale Airport (Salento Airport)</a>.',
+            [Language.ITALIAN]: 'Getting to the wedding venue from abroad is easiest by plane. ' +
+                'The closest airport is: ' +
+                '<a href="https://maps.app.goo.gl/VTXyV5dDLfGFCfpA8" target="_blank">Brindisi Papola Casale Airport (Salento Airport)</a>.',
+        },
+        '#article-transportation-text3': {
+            [Language.HUNGARIAN]: '<span class="highlight">From the airport to your accomodation</span>',
+            [Language.ITALIAN]: '<span class="highlight">From the airport to your accomodation</span>',
+        },
+        '#article-transportation-text4': {
+            [Language.HUNGARIAN]: 'TODO',
+            [Language.ITALIAN]: 'TODO',
+        },
+        '#article-transportation-text5': {
+            [Language.HUNGARIAN]: '<span class="highlight">From your accomodation to the wedding venues</span>',
+            [Language.ITALIAN]: '<span class="highlight">From your accomodation to the wedding venues</span>',
+        },
+        '#article-transportation-text6': {
+            [Language.HUNGARIAN]: 'TODO',
+            [Language.ITALIAN]: 'TODO',
+        },
 
-        
         // RSVP
-
+        '#article-rsvp .article-title': {
+            [Language.HUNGARIAN]: 'Visszajelzés',
+            [Language.ITALIAN]: 'R.S.V.P'
+        },
+        '#article-rsvp-text1': {
+            [Language.HUNGARIAN]: 'Please confirm your presence to either of us, by ' +
+                '<span class="highlight-strong">30th March</span> ' +
+                'so we can arrange everything in time for you! And let us ' +
+                'know if you have any dietary requirements ' +
+                '(vegetarian, lactose free, etc.)',
+            [Language.ITALIAN]: 'Please confirm your presence to either of us, by ' +
+                '<span class="highlight-strong">30th March</span> ' +
+                'so we can arrange everything in time for you! And let us ' +
+                'know if you have any dietary requirements ' +
+                '(vegetarian, lactose free, etc.)',
+        },
 
         // GIFTS
-
+        '#article-gifts .article-title': {
+            [Language.HUNGARIAN]: 'Ajándékok',
+            [Language.ITALIAN]: 'Gifts'
+        },
+        '#article-gifts-text1': {
+            [Language.HUNGARIAN]: 'Your presence is the most important gift of all, but if you ' +
+                'would like to contribute to our Honeymoon Fund, ' +
+                'we would be so grateful!',
+            [Language.ITALIAN]: 'Your presence is the most important gift of all, but if you ' +
+                'would like to contribute to our Honeymoon Fund, ' +
+                'we would be so grateful!',
+        },
+        '#gifts-title': {
+            [Language.HUNGARIAN]: 'Nászút alap',
+            [Language.ITALIAN]: 'Honeymoon Fund'
+        },
+        '#gifts-account-name': {
+            [Language.HUNGARIAN]: 'Számlanév',
+            [Language.ITALIAN]: 'Account name'
+        },
+        '#gifts-account-name-value': {
+            [Language.HUNGARIAN]: 'Use either "Kristof Kotai"<br> or "Chiara De Matteis"',
+            [Language.ITALIAN]: 'Use either "Kristof Kotai"<br> or "Chiara De Matteis"'
+        },
+        '#gifts-iban': {
+            [Language.HUNGARIAN]: 'IBAN',
+            [Language.ITALIAN]: 'IBAN'
+        },
+        '#gifts-bic': {
+            [Language.HUNGARIAN]: 'BIC',
+            [Language.ITALIAN]: 'BIC'
+        },
+        '#gifts-bank-name': {
+            [Language.HUNGARIAN]: 'Bank neve',
+            [Language.ITALIAN]: 'Bank name'
+        },
+        '#gifts-bank-address': {
+            [Language.HUNGARIAN]: 'Bank címe',
+            [Language.ITALIAN]: 'Bank address'
+        },
 
     };
 }

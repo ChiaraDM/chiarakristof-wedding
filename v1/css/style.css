@@ -145,7 +145,7 @@ header {
 
 .title-photo {
     width: 787px;
-    filter: saturate(0);
+    filter: saturate(0.7);
     position: relative;
     top: -520px;
 }
