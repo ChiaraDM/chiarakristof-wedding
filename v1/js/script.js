@@ -17,9 +17,12 @@ class Language {
     }
 
     static determineLanguage() {
+        // return Language.HUNGARIAN;
+        // return Language.ITALIAN;
+
         let browserLanguage = navigator.language || navigator.userLanguage;
         browserLanguage = browserLanguage.toLowerCase();
-        // return Language.HUNGARIAN;
+
         if (browserLanguage.indexOf("hu") !== -1) {
             return Language.HUNGARIAN;
         } else if (browserLanguage.indexOf("it") !== -1) {
@@ -224,8 +227,8 @@ class Data {
             [Language.ITALIAN]: 'Account name'
         },
         '#gifts-account-name-value': {
-            [Language.HUNGARIAN]: 'Use either "Kristof Kotai"<br> or "Chiara De Matteis"',
-            [Language.ITALIAN]: 'Use either "Kristof Kotai"<br> or "Chiara De Matteis"'
+            [Language.HUNGARIAN]: 'It is a joint account, use either<br> "Kristof Kotai" or "Chiara De Matteis"',
+            [Language.ITALIAN]: 'It is a joint account, use either<br> "Kristof Kotai" or "Chiara De Matteis"'
         },
         '#gifts-iban': {
             [Language.HUNGARIAN]: 'IBAN',
