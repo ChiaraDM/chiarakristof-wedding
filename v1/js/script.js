@@ -79,7 +79,7 @@ class Data {
 
         // NAV
         '#nav-ceremony a': {
-            [Language.HUNGARIAN]: 'Ceremónia',
+            [Language.HUNGARIAN]: 'Esküvő',
             [Language.ITALIAN]: 'Ceremony'
         },
         '#nav-celebration a': {
@@ -105,13 +105,13 @@ class Data {
 
         // CEREMONY
         '#article-ceremony .article-title': {
-            [Language.HUNGARIAN]: 'Ceremónia',
+            [Language.HUNGARIAN]: 'Esküvő',
             [Language.ITALIAN]: 'Ceremony'
         },
         '#article-ceremony-text1': {
-            [Language.HUNGARIAN]: 'The wedding ceremony will be held ' +
-                'at <span class="highlight">10:30 AM</span> ' +
-                'at <span class="highlight">Chiesa Madre dei Santi Pietro e Paolo</span>.',
+            [Language.HUNGARIAN]: 'A templomi esküvő <span class="highlight">10:30</span>-kor ' +
+                'fog kezdődni a <span class="highlight">Chiesa Madre dei Santi Pietro e Paolo</span> ' +
+                'templomban, Galatina városában.',
             [Language.ITALIAN]: 'The wedding ceremony will be held ' +
                 'at <span class="highlight">10:30 AM</span> ' +
                 'at <span class="highlight">Chiesa Madre dei Santi Pietro e Paolo</span>.',
@@ -123,8 +123,8 @@ class Data {
             [Language.ITALIAN]: 'Celebration'
         },
         '#article-celebration-text1': {
-            [Language.HUNGARIAN]: 'After the ceremony, the celebration will continue ' +
-                'at <span class="highlight">Cala Dei Balcani</span>.',
+            [Language.HUNGARIAN]: 'Az esküvő után az ünnepi ebéd pedig a ' +
+                '<span class="highlight">Cala Dei Balcani</span>-ban folytatódik Satan Cesarea Terme városában.',
             [Language.ITALIAN]: 'After the ceremony, the celebration will continue ' +
                 'at <span class="highlight">Cala Dei Balcani</span>.',
         },
@@ -135,8 +135,8 @@ class Data {
             [Language.ITALIAN]: 'Accomodation'
         },
         '#article-accomodation-text1': {
-            [Language.HUNGARIAN]: 'After the ceremony, the celebration will continue ' +
-                'at <span class="highlight">Cala Dei Balcani</span>.',
+            [Language.HUNGARIAN]: 'To book an accomodation, we would recommend ' +
+                'the following towns, they all have beautiful sea views:',
             [Language.ITALIAN]: 'After the ceremony, the celebration will continue ' +
                 'at <span class="highlight">Cala Dei Balcani</span>.',
         },
@@ -193,11 +193,10 @@ class Data {
             [Language.ITALIAN]: 'R.S.V.P'
         },
         '#article-rsvp-text1': {
-            [Language.HUNGARIAN]: 'Please confirm your presence to either of us, by ' +
-                '<span class="highlight-strong">30th March</span> ' +
-                'so we can arrange everything in time for you! And let us ' +
-                'know if you have any dietary requirements ' +
-                '(vegetarian, lactose free, etc.)',
+            [Language.HUNGARIAN]: 'Kérünk titeket, hogy jelezzetek vissza lehetőleg ' +
+                '<span class="highlight-strong">március 30-ig</span>, hogy mindent időben elintézhessünk ' +
+                'nektek! Valamint ha speciális étrendre lenne szükségetek (vegetariánus, laktóz-, ' +
+                'gluténmentes, stb) kérünk szóljatok előre. ',
             [Language.ITALIAN]: 'Please confirm your presence to either of us, by ' +
                 '<span class="highlight-strong">30th March</span> ' +
                 'so we can arrange everything in time for you! And let us ' +
@@ -211,15 +210,14 @@ class Data {
             [Language.ITALIAN]: 'Gifts'
         },
         '#article-gifts-text1': {
-            [Language.HUNGARIAN]: 'Your presence is the most important gift of all, but if you ' +
-                'would like to contribute to our Honeymoon Fund, ' +
-                'we would be so grateful!',
+            [Language.HUNGARIAN]: 'Nekünk a jelenlétetek lenne a legnagyobb ajándék, de ha ' +
+                'szeretnétek hozzájárulni a Nászút Alapunkhoz nagyon hálásak lennénk!',
             [Language.ITALIAN]: 'Your presence is the most important gift of all, but if you ' +
                 'would like to contribute to our Honeymoon Fund, ' +
                 'we would be so grateful!',
         },
         '#gifts-title': {
-            [Language.HUNGARIAN]: 'Nászút alap',
+            [Language.HUNGARIAN]: 'Nászút Alap',
             [Language.ITALIAN]: 'Honeymoon Fund'
         },
         '#gifts-account-name': {
@@ -227,7 +225,8 @@ class Data {
             [Language.ITALIAN]: 'Account name'
         },
         '#gifts-account-name-value': {
-            [Language.HUNGARIAN]: 'It is a joint account, use either<br> "Kristof Kotai" or "Chiara De Matteis"',
+            [Language.HUNGARIAN]: '"Kristof Kotai" vagy "Chiara De Matteis". <br>' +
+                '(Ez egy közös számla, egyikünk neve jó lesz)',
             [Language.ITALIAN]: 'It is a joint account, use either<br> "Kristof Kotai" or "Chiara De Matteis"'
         },
         '#gifts-iban': {
