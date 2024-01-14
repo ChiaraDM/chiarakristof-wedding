@@ -180,7 +180,7 @@ img#img-frame {
 
 .title-container {
     position: relative;
-    top: -1518px;
+    top: -1530px;
 }
 
 @media (max-width: 900px) {
@@ -207,6 +207,8 @@ img#img-frame {
 }
 
 .date {
+    position: relative;
+    top: -60px;
     font-family: 'Merriweather', serif;
     font-size: 1.2em;
     padding-bottom: 3em;
@@ -217,6 +219,7 @@ img#img-frame {
 
 @media (max-width: 900px) {
     .date {
+        top: -45px;
         font-size: 0.8em;
     }
 }
