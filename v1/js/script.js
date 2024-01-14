@@ -74,25 +74,25 @@ class Data {
         // HEADER
         'header .date-text': {
             [Language.HUNGARIAN]: '2024. június 21.',
-            [Language.ITALIAN]: '21st June 2024'
+            [Language.ITALIAN]: '21 Giugno 2024'
         },
 
         // NAV
         '#nav-ceremony a': {
             [Language.HUNGARIAN]: 'Esküvő',
-            [Language.ITALIAN]: 'Ceremony'
+            [Language.ITALIAN]: 'Cerimonia Religiosa'
         },
         '#nav-celebration a': {
             [Language.HUNGARIAN]: 'Fogadás',
-            [Language.ITALIAN]: 'Celebration'
+            [Language.ITALIAN]: 'Ristorante'
         },
         '#nav-accomodation a': {
             [Language.HUNGARIAN]: 'Szállás',
-            [Language.ITALIAN]: 'Accomodation'
+            [Language.ITALIAN]: 'Alloggio'
         },
         '#nav-transportation a': {
             [Language.HUNGARIAN]: 'Transzport',
-            [Language.ITALIAN]: 'Transportation'
+            [Language.ITALIAN]: 'Come arrivare'
         },
         '#nav-rsvp a': {
             [Language.HUNGARIAN]: 'Visszajelzés',
@@ -100,67 +100,67 @@ class Data {
         },
         '#nav-gifts a': {
             [Language.HUNGARIAN]: 'Ajándékok',
-            [Language.ITALIAN]: 'Gifts'
+            [Language.ITALIAN]: 'Lista nozze'
         },
 
         // CEREMONY
         '#article-ceremony .article-title': {
             [Language.HUNGARIAN]: 'Esküvő',
-            [Language.ITALIAN]: 'Ceremony'
+            [Language.ITALIAN]: 'Cerimonia Religiosa'
         },
         '#article-ceremony-text1': {
             [Language.HUNGARIAN]: 'A templomi esküvő <span class="highlight">10:30</span>-kor ' +
                 'fog kezdődni a <span class="highlight">Chiesa Madre dei Santi Pietro e Paolo</span> ' +
                 'templomban, Galatina városában.',
-            [Language.ITALIAN]: 'The wedding ceremony will be held ' +
-                'at <span class="highlight">10:30 AM</span> ' +
-                'at <span class="highlight">Chiesa Madre dei Santi Pietro e Paolo</span>.',
+            [Language.ITALIAN]: 'La cerimonia religiosa si terrà ' +
+                ' alle <span class="highlight">10:30</span> ' +
+                'presso la<span class="highlight">Chiesa Madre dei Santi Pietro e Paolo</span> a Galatina.',
         },
 
         // CELEBRATION
         '#article-celebration .article-title': {
             [Language.HUNGARIAN]: 'Fogadás',
-            [Language.ITALIAN]: 'Celebration'
+            [Language.ITALIAN]: 'Ristorante'
         },
         '#article-celebration-text1': {
             [Language.HUNGARIAN]: 'Az esküvő után az ünnepi ebéd pedig a ' +
                 '<span class="highlight">Cala Dei Balcani</span>-ban folytatódik Satan Cesarea Terme városában.',
-            [Language.ITALIAN]: 'After the ceremony, the celebration will continue ' +
-                'at <span class="highlight">Cala Dei Balcani</span>.',
+            [Language.ITALIAN]: 'Dopo la cerimonia, i festeggiamenti continueranno presso ' +
+                '<span class="highlight">Cala Dei Balcani</span> a Santa Cesarea Terme.',
         },
 
         // ACCOMODATION
         '#article-accomodation .article-title': {
             [Language.HUNGARIAN]: 'Szállás',
-            [Language.ITALIAN]: 'Accomodation'
+            [Language.ITALIAN]: 'Alloggio'
         },
         '#article-accomodation-text1': {
             [Language.HUNGARIAN]: 'To book an accomodation, we would recommend ' +
                 'the following towns, they all have beautiful sea views:',
-            [Language.ITALIAN]: 'After the ceremony, the celebration will continue ' +
-                'at <span class="highlight">Cala Dei Balcani</span>.',
+            [Language.ITALIAN]: 'Se avete bisogno di un alloggio, vi raccomandiamo i seguenti paesi ' +
+                'che hanno tutti una bellissima vista mare: ',
         },
         '#article-accomodation-text2': {
             [Language.HUNGARIAN]: 'The closest to the celebration venue is Santa Cesarea Terme, ' +
                 'where <span class="highlight">Cala Dei Balcani</span> is located.',
-            [Language.ITALIAN]: 'The closest to the celebration venue is Santa Cesarea Terme, ' +
-                'where <span class="highlight">Cala Dei Balcani</span> is located.',
+            [Language.ITALIAN]: 'Da notare che Santa Cesarea Terme è il paese in cui si trova ' +
+                '<span class="highlight">Cala Dei Balcani</span> is located.',
         },
         '#article-accomodation-text3': {
             [Language.HUNGARIAN]: 'Note, that within these towns there is no Uber or on-demand Taxi service. ' +
                 'Taxi journeys need to be prebooked.',
-            [Language.ITALIAN]: 'Note, that within these towns there is no Uber or on-demand Taxi service. ' +
-                'Taxi journeys need to be prebooked.',
+            [Language.ITALIAN]: 'In questi paesi non esiste Uber o servizio taxi, ' +
+                'che, se richiesto, dovrà invece essere prenotato con anticipo.',
         },
 
         // TRANSPORTATION
         '#article-transportation .article-title': {
             [Language.HUNGARIAN]: 'Transzport',
-            [Language.ITALIAN]: 'Transportation'
+            [Language.ITALIAN]: 'Come arrivare'
         },
         '#article-transportation-text1': {
             [Language.HUNGARIAN]: '<span class="highlight">Arriving by plane</span>',
-            [Language.ITALIAN]: '<span class="highlight">Arriving by plane</span>',
+            [Language.ITALIAN]: '<span class="highlight">In aereo</span>',
         },
         '#article-transportation-text2': {
             [Language.HUNGARIAN]: 'Getting to the wedding venue from abroad is easiest by plane. ' +
