@@ -124,7 +124,7 @@ class Data {
         },
         '#article-celebration-text1': {
             [Language.HUNGARIAN]: 'Az esküvő után az ünnepi ebéd pedig a ' +
-                '<span class="highlight">Cala Dei Balcani</span>-ban folytatódik Satan Cesarea Terme városában.',
+                '<span class="highlight">Cala Dei Balcani</span>-ban folytatódik Santa Cesarea Terme városában.',
             [Language.ITALIAN]: 'Dopo la cerimonia, i festeggiamenti continueranno presso ' +
                 '<span class="highlight">Cala Dei Balcani</span> a Santa Cesarea Terme.',
         },
@@ -135,20 +135,21 @@ class Data {
             [Language.ITALIAN]: 'Alloggio'
         },
         '#article-accomodation-text1': {
-            [Language.HUNGARIAN]: 'To book an accomodation, we would recommend ' +
-                'the following towns, they all have beautiful sea views:',
+            [Language.HUNGARIAN]: 'Szállás minden magyar vendégnek biztosítva lesz 3 éjszakára (június 20-23) ' +
+                '<span class="highlight">Santa Cesarea Terme</span> városában. Ha szeretnétek tovább maradni egy hosszabb ' +
+                'nyaralásra, szóljatok és akkor úgy foglaljuk a szállást hogy a 3 nap után tovább tudjatok maradni ' +
+                'ugyanott. <br> ' +
+                'Ha autóval érkeznétek, szintén ajánljuk a következő tengerparti városok meglátogatását is:',
             [Language.ITALIAN]: 'Se avete bisogno di un alloggio, vi raccomandiamo i seguenti paesi ' +
                 'che hanno tutti una bellissima vista mare: ',
         },
         '#article-accomodation-text2': {
-            [Language.HUNGARIAN]: 'The closest to the celebration venue is Santa Cesarea Terme, ' +
-                'where <span class="highlight">Cala Dei Balcani</span> is located.',
+            [Language.HUNGARIAN]: 'TODO',
             [Language.ITALIAN]: 'Da notare che Santa Cesarea Terme è il paese in cui si trova ' +
                 '<span class="highlight">Cala Dei Balcani</span> is located.',
         },
         '#article-accomodation-text3': {
-            [Language.HUNGARIAN]: 'Note, that within these towns there is no Uber or on-demand Taxi service. ' +
-                'Taxi journeys need to be prebooked.',
+            [Language.HUNGARIAN]: '',
             [Language.ITALIAN]: 'In questi paesi non esiste Uber o servizio taxi, ' +
                 'che, se richiesto, dovrà invece essere prenotato con anticipo.',
         },
