@@ -18,7 +18,7 @@ class Language {
 
     static determineLanguage() {
         // return Language.HUNGARIAN;
-        return Language.ITALIAN;
+        // return Language.ITALIAN;
 
         let browserLanguage = navigator.language || navigator.userLanguage;
         browserLanguage = browserLanguage.toLowerCase();
@@ -188,8 +188,8 @@ class Data {
         '#article-transportation-text6': {
             [Language.HUNGARIAN]: 'TODO',
             [Language.ITALIAN]: 'Se decidi di alloggiare a Santa Cesarea Terme, il giorno del matrimonio metteremo a disposizione una navetta che trasporterà gli invitati dall\'' +
-            '<a href="https://maps.app.goo.gl/FTcQDVmqb4zhQbpx5" target="_blank">Hotel Santa Lucia</a> a Galatina (chiesa) e poi a ' +
-            '<a href="https://maps.app.goo.gl/ouHGBta5A7eb2sQMA" target="_blank"> Cala dei Balcani</a> a Santa Cesarea Terme (ristorante).'
+                '<a href="https://maps.app.goo.gl/FTcQDVmqb4zhQbpx5" target="_blank">Hotel Santa Lucia</a> a Galatina (chiesa) e poi a ' +
+                '<a href="https://maps.app.goo.gl/ouHGBta5A7eb2sQMA" target="_blank"> Cala dei Balcani</a> a Santa Cesarea Terme (ristorante).'
         },
 
         // RSVP
