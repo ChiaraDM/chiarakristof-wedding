@@ -18,7 +18,7 @@ class Language {
 
     static determineLanguage() {
         // return Language.HUNGARIAN;
-        // return Language.ITALIAN;
+        return Language.ITALIAN;
 
         let browserLanguage = navigator.language || navigator.userLanguage;
         browserLanguage = browserLanguage.toLowerCase();
@@ -146,7 +146,7 @@ class Data {
         '#article-accomodation-text2': {
             [Language.HUNGARIAN]: 'TODO',
             [Language.ITALIAN]: 'Da notare che Santa Cesarea Terme è il paese in cui si trova ' +
-                '<span class="highlight">Cala Dei Balcani</span> is located.',
+                '<span class="highlight">Cala Dei Balcani</span>.',
         },
         '#article-accomodation-text3': {
             [Language.HUNGARIAN]: '',
@@ -167,25 +167,29 @@ class Data {
             [Language.HUNGARIAN]: 'Getting to the wedding venue from abroad is easiest by plane. ' +
                 'The closest airport is: ' +
                 '<a href="https://maps.app.goo.gl/VTXyV5dDLfGFCfpA8" target="_blank">Brindisi Papola Casale Airport (Salento Airport)</a>.',
-            [Language.ITALIAN]: 'Getting to the wedding venue from abroad is easiest by plane. ' +
-                'The closest airport is: ' +
-                '<a href="https://maps.app.goo.gl/VTXyV5dDLfGFCfpA8" target="_blank">Brindisi Papola Casale Airport (Salento Airport)</a>.',
+            [Language.ITALIAN]: 'È più facile arrivare in Puglia in aereo. ' +
+                'L\'aeroporto più vicino si trova a ' +
+                '<a href="https://maps.app.goo.gl/VTXyV5dDLfGFCfpA8" target="_blank">Brindisi Papola Casale (Aeroporto del Salento)</a>. ' +
+                'Considera anche l\'aeroporto internazionale di ' +
+                '<a href="https://maps.app.goo.gl/kUtr6jNGYZjaYxWr7" target="_blank">Bari Karol Wojtyla</a> per voli diretti.'
         },
         '#article-transportation-text3': {
             [Language.HUNGARIAN]: '<span class="highlight">From the airport to your accomodation</span>',
-            [Language.ITALIAN]: '<span class="highlight">From the airport to your accomodation</span>',
+            [Language.ITALIAN]: '<span class="highlight">Dall\'aeroporto al tuo alloggio</span>',
         },
         '#article-transportation-text4': {
             [Language.HUNGARIAN]: 'TODO',
-            [Language.ITALIAN]: 'TODO',
+            [Language.ITALIAN]: 'Possiamo mettere a disposizione una navetta oppure, se hai intezione di affittare una macchina, quella è sicuramente la soluzione migliore per spostarsi in Salento.',
         },
         '#article-transportation-text5': {
             [Language.HUNGARIAN]: '<span class="highlight">From your accomodation to the wedding venues</span>',
-            [Language.ITALIAN]: '<span class="highlight">From your accomodation to the wedding venues</span>',
+            [Language.ITALIAN]: '<span class="highlight">Dal tuo alloggio alla chiesa e al ristorante</span>',
         },
         '#article-transportation-text6': {
             [Language.HUNGARIAN]: 'TODO',
-            [Language.ITALIAN]: 'TODO',
+            [Language.ITALIAN]: 'Se decidi di alloggiare a Santa Cesarea Terme, il giorno del matrimonio metteremo a disposizione una navetta che trasporterà gli invitati dall\'' +
+            '<a href="https://maps.app.goo.gl/FTcQDVmqb4zhQbpx5" target="_blank">Hotel Santa Lucia</a> a Galatina (chiesa) e poi a ' +
+            '<a href="https://maps.app.goo.gl/ouHGBta5A7eb2sQMA" target="_blank"> Cala dei Balcani</a> a Santa Cesarea Terme (ristorante).'
         },
 
         // RSVP
