@@ -144,7 +144,7 @@ class Data {
                 'che hanno tutti una bellissima vista mare: ',
         },
         '#article-accomodation-text2': {
-            [Language.HUNGARIAN]: 'TODO',
+            [Language.HUNGARIAN]: '',
             [Language.ITALIAN]: 'Da notare che Santa Cesarea Terme è il paese in cui si trova ' +
                 '<span class="highlight">Cala Dei Balcani</span>.',
         },
@@ -160,13 +160,12 @@ class Data {
             [Language.ITALIAN]: 'Come arrivare'
         },
         '#article-transportation-text1': {
-            [Language.HUNGARIAN]: '<span class="highlight">Arriving by plane</span>',
+            [Language.HUNGARIAN]: '<span class="highlight">Érkezés repülővel</span>',
             [Language.ITALIAN]: '<span class="highlight">In aereo</span>',
         },
         '#article-transportation-text2': {
-            [Language.HUNGARIAN]: 'Getting to the wedding venue from abroad is easiest by plane. ' +
-                'The closest airport is: ' +
-                '<a href="https://maps.app.goo.gl/VTXyV5dDLfGFCfpA8" target="_blank">Brindisi Papola Casale Airport (Salento Airport)</a>.',
+            [Language.HUNGARIAN]: 'Külföldről repülővel a legegyszerűbb eljutni az esküvő helyszínére, a legközelebbi repülőtér: ' +
+                '<a href="https://maps.app.goo.gl/VTXyV5dDLfGFCfpA8" target="_blank">Brindisi Papola Casale repülőtér (Salento repülőtér)</a>.',
             [Language.ITALIAN]: 'È più facile arrivare in Puglia in aereo. ' +
                 'L\'aeroporto più vicino si trova a ' +
                 '<a href="https://maps.app.goo.gl/VTXyV5dDLfGFCfpA8" target="_blank">Brindisi Papola Casale (Aeroporto del Salento)</a>. ' +
@@ -174,19 +173,36 @@ class Data {
                 '<a href="https://maps.app.goo.gl/kUtr6jNGYZjaYxWr7" target="_blank">Bari Karol Wojtyla</a> per voli diretti.'
         },
         '#article-transportation-text3': {
-            [Language.HUNGARIAN]: '<span class="highlight">From the airport to your accomodation</span>',
+            [Language.HUNGARIAN]: '<span class="highlight">A repülőtértől a szállásig</span>',
             [Language.ITALIAN]: '<span class="highlight">Dall\'aeroporto al tuo alloggio</span>',
         },
         '#article-transportation-text4': {
-            [Language.HUNGARIAN]: 'TODO',
+            [Language.HUNGARIAN]: 'Ha vezetni szeretnétek, van lehetőseg autót bérelni a repülőtéren levő kölcsönző cégektől: ' +
+                '<a href="https://maps.app.goo.gl/YQaGKyjLMRxyXWFs6" target="_blank">Sixt</a>, ' +
+                '<a href="https://maps.app.goo.gl/Gu8DmN3J5cv3xcSUA" target="_blank">Locauto</a>, ' +
+                '<a href="https://maps.app.goo.gl/fCN4Ymhhg1e2YcNb9" target="_blank">Autovia</a>, ' +
+                '<a href="https://maps.app.goo.gl/EFCPcJndjQgUZ9M79" target="_blank">Enterprise Rent-a-car</a>, ' +
+                '<a href="https://maps.app.goo.gl/XnaVTvj8eChhkxWd9" target="_blank">Hertz</a>. ' +
+                '<br /><br />' +
+                'Ha nem vezettek, nem probléma mert március 20-án lesz minibusz bérelve hogy megkönnyítsük a repülőtértől ' +
+                'a szállásig való eljutást. Kérjük szóljatok előre hogy mikor fog érkezni a repülőtök, hogy időben érkezzen a minibusz. ' +
+                '<br /><br />' +
+                'Ha Taxival szeretnétek érkezni, akkor a következő szolgáltatásokat ajánljuk: ' +
+                '<a href="https://radio-taxi.it" target="_blank">Radio Taxi</a>, ' +
+                '<a href="https://www.moveinpuglia.com/en/" target="_blank">Move in Puglia</a>.',
             [Language.ITALIAN]: 'Possiamo mettere a disposizione una navetta oppure, se hai intezione di affittare una macchina, quella è sicuramente la soluzione migliore per spostarsi in Salento.',
         },
         '#article-transportation-text5': {
-            [Language.HUNGARIAN]: '<span class="highlight">From your accomodation to the wedding venues</span>',
+            [Language.HUNGARIAN]: '<span class="highlight">A szállástól az esküvői helyszínekig</span>',
             [Language.ITALIAN]: '<span class="highlight">Dal tuo alloggio alla chiesa e al ristorante</span>',
         },
         '#article-transportation-text6': {
-            [Language.HUNGARIAN]: 'TODO',
+            [Language.HUNGARIAN]: 'Ha autóval érkeztek, parkolóhelyet könnyen lehet találni a Galatina templom közelében, például a ' +
+                '<a href="https://maps.app.goo.gl/jiMoLQiDJxXYaW7u9" target="_blank">Villa Comunale</a> ' +
+                'környékén, valamint úgyszintén a Cala dei Balacani bejáratánál is: ' +
+                '<a href="https://maps.app.goo.gl/vTBfVF4oqfAT3TdW6" target="_blank">(40.038093, 18.456934)</a> ' +
+                '<br /><br />' +
+                'Ha nem vezettek, hasonlóan március 21-én is lesz minibusz szolgáltatás Santa Cesarea Terme és Galatina templom között, tehát autó nem szükséges az esküvő napján sem.',
             [Language.ITALIAN]: 'Se decidi di alloggiare a Santa Cesarea Terme, il giorno del matrimonio metteremo a disposizione una navetta che trasporterà gli invitati dall\'' +
                 '<a href="https://maps.app.goo.gl/FTcQDVmqb4zhQbpx5" target="_blank">Hotel Santa Lucia</a> a Galatina (chiesa) e poi a ' +
                 '<a href="https://maps.app.goo.gl/ouHGBta5A7eb2sQMA" target="_blank"> Cala dei Balcani</a> a Santa Cesarea Terme (ristorante).'
@@ -198,8 +214,8 @@ class Data {
             [Language.ITALIAN]: 'R.S.V.P'
         },
         '#article-rsvp-text1': {
-            [Language.HUNGARIAN]: 'Kérünk titeket, hogy jelezzetek vissza lehetőleg ' +
-                '<span class="highlight-strong">március 30-ig</span>, hogy mindent időben elintézhessünk ' +
+            [Language.HUNGARIAN]: 'Kérünk titeket, hogy jelezzetek vissza ' +
+                '<span class="highlight-strong">március 30-ig</span> legkésőbb, hogy mindent időben elintézhessünk ' +
                 'nektek! Valamint ha speciális étrendre lenne szükségetek (vegetariánus, laktóz-, ' +
                 'gluténmentes, stb) kérünk szóljatok előre. ',
             [Language.ITALIAN]: 'Please confirm your presence to either of us, by ' +
