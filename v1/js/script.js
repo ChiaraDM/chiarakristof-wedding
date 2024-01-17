@@ -18,7 +18,7 @@ class Language {
 
     static determineLanguage() {
         // return Language.HUNGARIAN;
-        return Language.ITALIAN;
+        // return Language.ITALIAN;
 
         // Override from GET param?
         let searchParams = new URLSearchParams(window.location.search);
