@@ -18,7 +18,7 @@ class Language {
 
     static determineLanguage() {
         // return Language.HUNGARIAN;
-        // return Language.ITALIAN;
+        return Language.ITALIAN;
 
         // Override from GET param?
         let searchParams = new URLSearchParams(window.location.search);
@@ -228,37 +228,37 @@ class Data {
                 '<span class="highlight-strong">március 30-ig</span> legkésőbb, hogy mindent időben elintézhessünk ' +
                 'nektek! Valamint ha speciális étrendre lenne szükségetek (vegetariánus, laktóz-, ' +
                 'gluténmentes, stb) kérünk szóljatok előre. ',
-            [Language.ITALIAN]: 'Please confirm your presence to either of us, by ' +
-                '<span class="highlight-strong">30th March</span> ' +
-                'so we can arrange everything in time for you! And let us ' +
-                'know if you have any dietary requirements ' +
-                '(vegetarian, lactose free, etc.)',
+            [Language.ITALIAN]: 'È gradita conferma entro ' +
+                '<span class="highlight-strong">il 30 marzo</span> ' +
+                'così da poter organizzare tutto in tempo per voi! Nella conferma vorremmo anche sapere se ci sono allergie, intolleranze o restrizioni alimentari di cui dobbiamo tener conto. '
         },
 
         // GIFTS
         '#article-gifts .article-title': {
             [Language.HUNGARIAN]: 'Ajándékok',
-            [Language.ITALIAN]: 'Gifts'
+            [Language.ITALIAN]: 'Regali'
         },
         '#article-gifts-text1': {
             [Language.HUNGARIAN]: 'Nekünk a jelenlétetek lenne a legnagyobb ajándék, de ha ' +
                 'szeretnétek hozzájárulni a Nászút Alapunkhoz nagyon hálásak lennénk!',
-            [Language.ITALIAN]: 'Your presence is the most important gift of all, but if you ' +
-                'would like to contribute to our Honeymoon Fund, ' +
-                'we would be so grateful!',
+            [Language.ITALIAN]: 'La vostra presenza è il regalo più bello di tutti ma, se lo volete,  ' +
+                'potete contribuire al nostro fondo per la Luna di Miele, ' +
+                've ne saremmo veramente grati!',
         },
         '#gifts-title': {
             [Language.HUNGARIAN]: 'Nászút Alap',
-            [Language.ITALIAN]: 'Honeymoon Fund'
+            [Language.ITALIAN]: 'Fondo Luna di Miele'
         },
         '#gifts-account-name': {
             [Language.HUNGARIAN]: 'Számlanév',
-            [Language.ITALIAN]: 'Account name'
+            [Language.ITALIAN]: 'Dati beneficiario ' +
+                '<br />' +
+                '(nome cognome)'
         },
         '#gifts-account-name-value': {
             [Language.HUNGARIAN]: '"Kristof Kotai" vagy "Chiara De Matteis". <br>' +
                 '(Ez egy közös számla, egyikünk neve jó lesz)',
-            [Language.ITALIAN]: 'It is a joint account, use either<br> "Kristof Kotai" or "Chiara De Matteis"'
+            [Language.ITALIAN]: 'È un conto cointestato, use pure<br> "Kristof Kotai" o "Chiara De Matteis"'
         },
         '#gifts-iban': {
             [Language.HUNGARIAN]: 'IBAN',
@@ -270,11 +270,11 @@ class Data {
         },
         '#gifts-bank-name': {
             [Language.HUNGARIAN]: 'Bank neve',
-            [Language.ITALIAN]: 'Bank name'
+            [Language.ITALIAN]: 'Nome della banca'
         },
         '#gifts-bank-address': {
             [Language.HUNGARIAN]: 'Bank címe',
-            [Language.ITALIAN]: 'Bank address'
+            [Language.ITALIAN]: 'Indirizzo della Banca'
         },
 
     };
