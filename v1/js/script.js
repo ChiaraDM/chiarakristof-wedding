@@ -20,9 +20,19 @@ class Language {
         // return Language.HUNGARIAN;
         // return Language.ITALIAN;
 
+        // Override from GET param?
+        let searchParams = new URLSearchParams(window.location.search);
+        if (searchParams.has('en')) {
+            return Language.ENGLISH;
+        } else if (searchParams.has('hu')) {
+            return Language.HUNGARIAN;
+        } else if (searchParams.has('it')) {
+            return Language.ITALIAN;
+        }
+
+        // Determine by browser language
         let browserLanguage = navigator.language || navigator.userLanguage;
         browserLanguage = browserLanguage.toLowerCase();
-
         if (browserLanguage.indexOf("hu") !== -1) {
             return Language.HUNGARIAN;
         } else if (browserLanguage.indexOf("it") !== -1) {
