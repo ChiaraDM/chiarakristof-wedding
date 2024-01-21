@@ -194,7 +194,7 @@ class Data {
                 '<a href="https://maps.app.goo.gl/EFCPcJndjQgUZ9M79" target="_blank">Enterprise Rent-a-car</a>, ' +
                 '<a href="https://maps.app.goo.gl/XnaVTvj8eChhkxWd9" target="_blank">Hertz</a>. ' +
                 '<br /><br />' +
-                'Ha nem vezettek, nem probléma mert március 20-án lesz minibusz bérelve hogy megkönnyítsük a repülőtértől ' +
+                'Ha nem vezettek, nem probléma mert június 20-án lesz minibusz bérelve hogy megkönnyítsük a repülőtértől ' +
                 'a szállásig való eljutást. Kérjük szóljatok előre hogy mikor fog érkezni a repülőtök, hogy időben érkezzen a minibusz. ' +
                 '<br /><br />' +
                 'Ha Taxival szeretnétek érkezni, akkor a következő szolgáltatásokat ajánljuk: ' +
