@@ -21,7 +21,8 @@
     font-family: 'Adios Script Pro Regular';
     font-style: normal;
     font-weight: normal;
-    src: url('../fonts/adios-script-pro.woff') format('woff');
+    font-display: swap;
+    src: url('../fonts/adios-script-pro-v2.woff') format('woff'), url('../fonts/adios-script-pro-v2.woff2') format('woff2');
 }
 
 @font-face {
