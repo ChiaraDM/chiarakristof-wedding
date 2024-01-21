@@ -1,11 +1,325 @@
-<script>
-var lang = navigator.language || navigator.userLanguage;
-lang = lang.toLowerCase();
-if (lang.indexOf("hu") !== -1) {
-	window.location.href = "/hu";
-} else if (lang.indexOf("it") !== -1) {
-	window.location.href = "/it";
-} else {
-	window.location.href = "/en";
-}
-</script>
+<!DOCTYPE html>
+<html lang="en" class="marble-grey">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+
+    <title>Chiara &amp; Krist&oacute;f Wedding</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-3.7.1.slim.min.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- 
+        HEADER
+    -->
+    <header>
+        <img id="image-header" class="svg" src="svg/header.svg" />
+        <div class="frame-container">
+            <div class="frame-white-layer"></div>
+
+            <img class="title-photo" src="images/us-small-transparent.png" />
+
+            <div class="frame-svg-container">
+                <img id="img-frame" class="svg" src="svg/frame.svg" />
+            </div>
+
+            <div class="title-container">
+                <div class="title">Chiara &amp; Krist&oacute;f</div>
+                <div class="date">
+                    <span class="date-line">&#9135;&#9135;&#9135;&#9135;</span>
+                    <span class="date-text">21st June 2024</span>
+                    <span class="date-line">&#9135;&#9135;&#9135;&#9135;</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 
+        NAVIGATION 
+    -->
+    <nav class="marble-yellow">
+        <span id="nav-ceremony">
+            <a href="javascript:void(0)"
+                onclick="document.getElementById('article-ceremony').scrollIntoView({ behavior: 'smooth' });">Ceremony</a>
+            <span class="diamond">&#x25C6;</span>
+        </span>
+        <span id="nav-celebration">
+            <a href="javascript:void(0)"
+                onclick="document.getElementById('article-celebration').scrollIntoView({ behavior: 'smooth' });">Celebration</a>
+            <span class="diamond">&#x25C6;</span>
+        </span>
+        <span id="nav-accomodation">
+            <a href="javascript:void(0)"
+                onclick="document.getElementById('article-accomodation').scrollIntoView({ behavior: 'smooth' });">Accomodation</a>
+            <span class="diamond">&#x25C6;</span>
+        </span>
+        <span id="nav-transportation">
+            <a href="javascript:void(0)"
+                onclick="document.getElementById('article-transportation').scrollIntoView({ behavior: 'smooth' });">Transportation</a>
+            <span class="diamond">&#x25C6;</span>
+        </span>
+        <span id="nav-rsvp">
+            <a href="javascript:void(0)"
+                onclick="document.getElementById('article-rsvp').scrollIntoView({ behavior: 'smooth' });">RSVP</a>
+            <span class="diamond">&#x25C6;</span>
+        </span>
+        <span id="nav-gifts">
+            <a href="javascript:void(0)"
+                onclick="document.getElementById('article-gifts').scrollIntoView({ behavior: 'smooth' });">Gifts</a>
+        </span>
+    </nav>
+
+    <!-- 
+        CONTENT 
+    -->
+    <main>
+
+        <!-- 
+            CONTENT: CEREMONY
+        -->
+        <article id="article-ceremony">
+            <div class="article-title">Ceremony</div>
+            <div class="article-title-underline">
+                <img class="svg" src="svg/title-underline.svg" width="300px" />
+            </div>
+
+            <p id="article-ceremony-text1" class="article-text">
+                The wedding ceremony will be held
+                at <span class="highlight">10:30 AM</span>
+                at <span class="highlight">Chiesa Madre dei Santi Pietro e Paolo</span>
+                in Galatina.
+            </p>
+
+            <div class="image-container">
+                <img id="galatina" src="images/img-galatina.jpg" />
+            </div>
+            <p>
+                <img src="svg/icon-map.svg" width="20px" height="15px" />
+                <a href="https://maps.app.goo.gl/KvshqXA6VCgHGWJUA" target="_blank">
+                    Piazza San Pietro, 73013 Galatina LE, Italy
+                </a>
+            </p>
+        </article>
+
+        <!-- 
+            CONTENT: CELEBRATION
+        -->
+        <article id="article-celebration">
+            <div class="article-title">Celebration</div>
+            <div class="article-title-underline">
+                <img class="svg" src="svg/title-underline.svg" width="300px" />
+            </div>
+
+            <p id="article-celebration-text1" class="article-text">
+                After the ceremony, the celebration will continue
+                at <span class="highlight">Cala Dei Balcani</span>.
+            </p>
+
+            <div class="image-container">
+                <img id="cala" src="images/img-cala.jpg" />
+            </div>
+            <p>
+                <img src="svg/icon-map.svg" width="20px" height="15px" />
+                <a href="https://maps.app.goo.gl/vsAh2ouUh2qnkw8C7" target="_blank">
+                    Via Belvedere, 22, 73020 Santa Cesarea Terme LE, Italy
+                </a>
+            </p>
+        </article>
+
+        <!-- 
+            CONTENT: ACCOMODATION
+        -->
+        <article id="article-accomodation">
+            <div class="article-title">Accomodation</div>
+            <div class="article-title-underline">
+                <img class="svg" src="svg/title-underline.svg" width="300px" />
+            </div>
+
+            <p id="article-accomodation-text1" class="article-text">
+                To book an accomodation, we would recommend
+                the following towns, they all have beautiful sea views:
+            </p>
+            <ul id="accomodation-list">
+                <li><a href="https://maps.app.goo.gl/mYAeYTDVQktinCfr9" target="_blank">Santa Cesarea Terme</a></li>
+                <li><a href="https://maps.app.goo.gl/r4je21PW8nE1mGJc9" target="_blank">Otranto</a></li>
+                <li><a href="https://maps.app.goo.gl/LwFMW2jdaNjQb9rQ8" target="_blank">Castro</a></li>
+                <li><a href="https://maps.app.goo.gl/jWaB4VAHkLmSyXRX8" target="_blank">Gallipoli</a></li>
+                <li><a href="https://maps.app.goo.gl/vkbdnXM5nsK4h1by8" target="_blank">Torre San Giovanni</a></li>
+            </ul>
+            <p id="article-accomodation-text2" class="article-text">
+                The closest to the celebration venue is Santa Cesarea Terme,
+                where <span class="highlight">Cala Dei Balcani</span> is located.
+            </p>
+            <p id="article-accomodation-text3" class="article-text">
+                Note, that within these towns there is no Uber or on-demand Taxi service.
+                Taxi journeys need to be prebooked.
+            </p>
+
+            <div class="image-container">
+                <img id="santa-cesarea" src="images/img-santa-cesarea.jpg" />
+            </div>
+            <p>
+                <img src="svg/icon-map.svg" width="20px" height="15px" />
+                <a href="https://maps.app.goo.gl/mYAeYTDVQktinCfr9" target="_blank">Santa Cesarea Terme LE, Italy</a>
+            </p>
+        </article>
+
+        <!-- 
+            CONTENT: TRANSPORTATION
+        -->
+        <article id="article-transportation">
+            <div class="article-title">Transportation</div>
+            <div class="article-title-underline">
+                <img class="svg" src="svg/title-underline.svg" width="300px" />
+            </div>
+
+            <p id="article-transportation-text1" class="article-text">
+                <span class="highlight">Arriving by plane</span>
+            </p>
+            <p id="article-transportation-text2" class="article-text">
+                Getting to the wedding venue from abroad is easiest by plane.
+                The closest airport is:
+                <a href="https://maps.app.goo.gl/VTXyV5dDLfGFCfpA8" target="_blank">
+                    Brindisi Papola Casale Airport (Salento Airport)
+                </a>.
+            </p>
+            <p></p>
+            <p id="article-transportation-text3" class="article-text">
+                <span class="highlight">From the airport to your accomodation</span>
+            </p>
+            <p id="article-transportation-text4" class="article-text">
+                If you drive, we recommend you to rent a car from one of the rental companies at the airport:
+                <a href="https://maps.app.goo.gl/YQaGKyjLMRxyXWFs6" target="_blank">Sixt</a>,
+                <a href="https://maps.app.goo.gl/Gu8DmN3J5cv3xcSUA" target="_blank">Locauto</a>,
+                <a href="https://maps.app.goo.gl/fCN4Ymhhg1e2YcNb9" target="_blank">Autovia</a>,
+                <a href="https://maps.app.goo.gl/EFCPcJndjQgUZ9M79" target="_blank">Enterprise Rent-a-car</a>,
+                <a href="https://maps.app.goo.gl/XnaVTvj8eChhkxWd9" target="_blank">Hertz</a>.
+
+                <br /><br />
+
+                If you don't drive, you can either prebook a Taxi between the airport and your accomodation
+                for example using:
+                <a href="https://radio-taxi.it" target="_blank">Radio Taxi</a>,
+                <a href="https://www.moveinpuglia.com/en/" target="_blank">Move in Puglia</a>,
+                or just let us know in advance, as there will be a mini bus service rented for some of
+                the guests who don't drive, and we can then arrange the service to be ready when your
+                flight arrives too.
+            </p>
+            <p></p>
+            <p id="article-transportation-text5" class="article-text">
+                <span class="highlight">From your accomodation to the wedding venues</span>
+            </p>
+            <p id="article-transportation-text6" class="article-text">
+                If you drive, there's plenty of parking space both
+                near the church in Galataina, for example around
+                <a href="https://maps.app.goo.gl/jiMoLQiDJxXYaW7u9" target="_blank">Villa Comunale</a>
+                and also at the entrance of Cala dei Balacani:
+                <a href="https://maps.app.goo.gl/vTBfVF4oqfAT3TdW6" target="_blank">(40.038093, 18.456934)</a>.
+
+                <br /><br />
+
+                If you don't drive, again you have to option to prebook a Taxi, or let us know to see
+                if we could arrange the mini bus service to pick you up / drop you off at the locations.
+            </p>
+        </article>
+
+        <!-- 
+            CONTENT: RSVP
+        -->
+        <article id="article-rsvp">
+            <div class="article-title">R.S.V.P</div>
+            <div class="article-title-underline">
+                <img class="svg" src="svg/title-underline.svg" width="300px" />
+            </div>
+
+            <p id="article-rsvp-text1" class="article-text">
+                Please confirm your presence to either of us, by
+                <span class="highlight-strong">30th March</span>
+                so we can arrange everything in time for you! And let us
+                know if you have any dietary requirements
+                (vegetarian, lactose free, etc.)
+            </p>
+            <div class="rsvp-contact">
+                <a href="mailto:chiara.dematteis.uk@gmail.com">chiara.dematteis.uk@gmail.com</a>
+                <br>
+                +39 320 8228545
+            </div>
+            <div class="rsvp-contact">
+                <a href="mailto:kotai.kristof@gmail.com">kotai.kristof@gmail.com</a>
+                <br>
+                +44 75 87750856
+            </div>
+        </article>
+
+        <!-- 
+            CONTENT: GIFTS
+        -->
+        <article id="article-gifts">
+            <div class="article-title">Gifts</div>
+            <div class="article-title-underline">
+                <img class="svg" src="svg/title-underline.svg" width="300px" />
+            </div>
+
+            <p id="article-gifts-text1" class="article-text">
+                Your presence is the most important gift of all, but if you
+                would like to contribute to our Honeymoon Fund,
+                we would be so grateful!
+            </p>
+            <p>&nbsp;</p>
+            <div class="table-container">
+                <table id="gifts">
+                    <tr>
+                        <td colspan="2" id="gifts-title">Honeymoon Fund</td>
+                    </tr>
+                    <tr>
+                        <th id="gifts-account-name">Account name</th>
+                        <td id="gifts-account-name-value">
+                            It is a joint account, use either<br>
+                            "Kristof Kotai" or "Chiara De Matteis"
+                        </td>
+                    </tr>
+                    <tr>
+                        <th id="gifts-iban">IBAN</th>
+                        <td>GB91SRLG60837112312433</td>
+                    </tr>
+                    <tr>
+                        <th id="gifts-bic">BIC</th>
+                        <td>SRLGGB2L</td>
+                    </tr>
+                    <tr>
+                        <th id="gifts-bank-name">Bank name</th>
+                        <td>Starling Bank</td>
+                    </tr>
+                    <tr>
+                        <th id="gifts-bank-address">Bank address</th>
+                        <td>
+                            Starling Bank Operations Team, <br>
+                            5th Floor Brunel House, <br>
+                            2 Fitzalan Road, <br>
+                            Cardiff, CF24 0FG. Wales
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </article>
+
+    </main>
+
+    <!-- 
+        FOOTER 
+    -->
+    <footer>
+        <p class="copyright">&copy; 2023 Chiara &amp; Kristof</p>
+
+        <div>
+            <img id="img-footer" class="svg" src="svg/footer.svg" />
+        </div>
+    </footer>
+</body>
+
+</html>
