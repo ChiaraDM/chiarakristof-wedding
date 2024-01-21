@@ -33,10 +33,10 @@ class Language {
         // Determine by browser language
         let browserLanguage = navigator.language || navigator.userLanguage;
         browserLanguage = browserLanguage.toLowerCase();
-        if (browserLanguage.indexOf("hu") !== -1) {
-            return Language.HUNGARIAN;
-        } else if (browserLanguage.indexOf("it") !== -1) {
+        if (browserLanguage.indexOf("it") !== -1) {
             return Language.ITALIAN;
+        } else if (browserLanguage.indexOf("hu") !== -1 || browserLanguage.indexOf("de") !== -1) {
+            return Language.HUNGARIAN;
         } else {
             return Language.ENGLISH;
         }
@@ -212,7 +212,7 @@ class Data {
                 'környékén, valamint úgyszintén a Cala dei Balacani bejáratánál is: ' +
                 '<a href="https://maps.app.goo.gl/vTBfVF4oqfAT3TdW6" target="_blank">(40.038093, 18.456934)</a> ' +
                 '<br /><br />' +
-                'Ha nem vezettek, hasonlóan március 21-én is lesz minibusz szolgáltatás Santa Cesarea Terme és Galatina templom között, tehát autó nem szükséges az esküvő napján sem.',
+                'Ha nem vezettek, hasonlóan június 21-én is lesz minibusz szolgáltatás Santa Cesarea Terme és Galatina templom között, tehát autó nem szükséges az esküvő napján sem.',
             [Language.ITALIAN]: 'Se decidi di alloggiare a Santa Cesarea Terme, il giorno del matrimonio metteremo a disposizione una navetta che trasporterà gli invitati dall\'' +
                 '<a href="https://maps.app.goo.gl/FTcQDVmqb4zhQbpx5" target="_blank">Hotel Santa Lucia</a> a Galatina (chiesa) e poi a ' +
                 '<a href="https://maps.app.goo.gl/ouHGBta5A7eb2sQMA" target="_blank"> Cala dei Balcani</a> a Santa Cesarea Terme (ristorante).'
