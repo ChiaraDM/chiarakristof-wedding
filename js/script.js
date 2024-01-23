@@ -175,7 +175,10 @@ class Data {
         },
         '#article-transportation-text2': {
             [Language.HUNGARIAN]: 'Külföldről repülővel a legegyszerűbb eljutni az esküvő helyszínére, a legközelebbi repülőtér: ' +
-                '<a href="https://maps.app.goo.gl/VTXyV5dDLfGFCfpA8" target="_blank">Brindisi Papola Casale repülőtér (Salento repülőtér)</a>.',
+                '<a href="https://maps.app.goo.gl/VTXyV5dDLfGFCfpA8" target="_blank">Brindisi Papola Casale repülőtér (Salento repülőtér)</a> ' +
+                'de ha egyszerűbb közvetlen járatot találni, ' +
+                '<a href="https://maps.app.goo.gl/Gd6szngYKtTTqkUV9" target="_blank">Bari repülőtér (Bari International Airport-Karol Wojtyla)</a> ' +
+                'is még a közelben van.',
             [Language.ITALIAN]: 'È più facile arrivare in Puglia in aereo. ' +
                 'L\'aeroporto più vicino si trova a ' +
                 '<a href="https://maps.app.goo.gl/VTXyV5dDLfGFCfpA8" target="_blank">Brindisi Papola Casale (Aeroporto del Salento)</a>. ' +
@@ -187,17 +190,13 @@ class Data {
             [Language.ITALIAN]: '<span class="highlight">Dall\'aeroporto al tuo alloggio</span>',
         },
         '#article-transportation-text4': {
-            [Language.HUNGARIAN]: 'Ha vezetni szeretnétek, van lehetőseg autót bérelni a repülőtéren levő kölcsönző cégektől: ' +
-                '<a href="https://maps.app.goo.gl/YQaGKyjLMRxyXWFs6" target="_blank">Sixt</a>, ' +
-                '<a href="https://maps.app.goo.gl/Gu8DmN3J5cv3xcSUA" target="_blank">Locauto</a>, ' +
-                '<a href="https://maps.app.goo.gl/fCN4Ymhhg1e2YcNb9" target="_blank">Autovia</a>, ' +
-                '<a href="https://maps.app.goo.gl/EFCPcJndjQgUZ9M79" target="_blank">Enterprise Rent-a-car</a>, ' +
-                '<a href="https://maps.app.goo.gl/XnaVTvj8eChhkxWd9" target="_blank">Hertz</a>. ' +
+            [Language.HUNGARIAN]: 'Ha vezetni szeretnétek, van lehetőseg autót bérelni a repülőtéren levő kölcsönző cégektől ' +
+                'mindkét repülőtérnél. ' +
                 '<br /><br />' +
                 'Ha nem vezettek, nem probléma mert június 20-án lesz minibusz bérelve hogy megkönnyítsük a repülőtértől ' +
-                'a szállásig való eljutást. Kérjük szóljatok előre hogy mikor fog érkezni a repülőtök, hogy időben érkezzen a minibusz. ' +
+                'a szállásig való eljutást. Kérjük szóljatok előre hogy mikor és melyik repülőtérre fogtok érkezni, hogy időben érkezzen a minibusz. ' +
                 '<br /><br />' +
-                'Ha Taxival szeretnétek érkezni, akkor a következő szolgáltatásokat ajánljuk: ' +
+                'Ha Taxival szeretnétek érkezni, arra is van lehetőség. Ajánljuk a következőket: ' +
                 '<a href="https://radio-taxi.it" target="_blank">Radio Taxi</a>, ' +
                 '<a href="https://www.moveinpuglia.com/en/" target="_blank">Move in Puglia</a>.',
             [Language.ITALIAN]: 'Possiamo mettere a disposizione una navetta oppure, se hai intezione di affittare una macchina, quella è sicuramente la soluzione migliore per spostarsi in Salento.',
