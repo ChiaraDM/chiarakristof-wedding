@@ -267,6 +267,10 @@ class Data {
             [Language.HUNGARIAN]: 'BIC',
             [Language.ITALIAN]: 'BIC'
         },
+        '#gifts-bic-value': {
+            [Language.HUNGARIAN]: 'SRLGGB2LXXX',
+            [Language.ITALIAN]: 'SRLGGB3LXXX'
+        },
         '#gifts-bank-name': {
             [Language.HUNGARIAN]: 'Bank neve',
             [Language.ITALIAN]: 'Nome della banca'
